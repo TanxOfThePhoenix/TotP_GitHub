@@ -702,3 +702,352 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.02.25-14.52.20:431][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/Documents/Unreal Games/TankGame/TotP_GitHub/Content/' took 0.32s
 [2023.02.25-14.52.20:459][  1]LogAssetRegistry: Asset discovery search completed in 5.4527 seconds
 [2023.02.25-14.52.20:464][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2023.02.25-14.55.28:699][243]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.25-14.55.28:856][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.25-14.55.28:877][243]PIE: New page: PIE session: VehicleAdvExampleMap (Feb 25, 2023, 2:55:28 AM)
+[2023.02.25-14.55.28:966][243]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.02.25-14.55.28:977][243]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.02.25-14.55.29:011][243]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2023.02.25-14.55.29:373][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.362144s)
+[2023.02.25-14.55.29:413][243]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2023.02.25-14.55.29:414][243]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014398813E00), frame # 5243
+[2023.02.25-14.55.29:414][243]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000143DF4C1440), frame # 5243
+[2023.02.25-14.55.29:414][243]LogPlayLevel: PIE: World Init took: (0.040238s)
+[2023.02.25-14.55.29:414][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.403811s)
+[2023.02.25-14.55.29:422][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.02.25-14.55.29:425][243]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.25-14.55.29:425][243]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.25-14.55.29:425][243]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.25-14.55.29:425][243]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.25-14.55.29:425][243]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.25-14.55.29:425][243]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.25-14.55.29:425][243]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.25-14.55.29:425][243]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.25-14.55.29:425][243]LogAudio: Display: Using built-in audio occlusion.
+[2023.02.25-14.55.29:425][243]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.25-14.55.29:430][243]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.25-14.55.29:430][243]LogAudioMixer: Display: 1: FrontRight
+[2023.02.25-14.55.29:629][243]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2023.02.25-14.55.29:629][243]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.25-14.55.29:629][243]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.25-14.55.29:629][243]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.25-14.55.29:630][243]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.25-14.55.29:639][243]LogInit: FAudioDevice initialized.
+[2023.02.25-14.55.29:904][243]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2023.02.25-14.55.30:408][243]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2023.02.25-08.55.30
+[2023.02.25-14.55.30:667][243]LogWorld: Bringing up level for play took: 0.441778
+[2023.02.25-14.55.30:679][243]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2023.02.25-14.55.30:823][243]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2023.02.25-14.55.31:251][243]Cmd: ENABLEALLSCREENMESSAGES
+[2023.02.25-14.55.31:495][243]LogEngine: Onscreen warngins/messages are now ENABLED
+[2023.02.25-14.55.31:538][243]PIE: Server logged in
+[2023.02.25-14.55.31:621][243]PIE: Play in editor total start time 2.885 seconds.
+[2023.02.25-14.55.33:482][284]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.55.33:490][284]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.55.33:505][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.55.33:998][285]PIE: Warning: None.ModelComponent_100 has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2023.02.25-14.55.34:124][288]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.55.34:125][288]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.55.34:125][288]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.55.34:587][317]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.55.34:587][317]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.55.34:587][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.55.35:357][335]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.55.35:357][335]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.55.35:357][335]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.55.35:846][358]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.55.35:846][358]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.55.35:847][358]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.55.36:310][406]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.55.36:310][406]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.55.36:310][406]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.55.37:026][431]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.55.37:026][431]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.55.37:026][431]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.55.37:424][476]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.55.37:424][476]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.55.37:425][476]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.55.37:925][536]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.55.37:925][536]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.55.37:925][536]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.55.37:967][541]PIE: Warning: None.ModelComponent_100 has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2023.02.25-14.55.38:425][596]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.55.38:425][596]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.55.38:425][596]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.55.38:830][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.25-14.55.38:831][626]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2023.02.25-14.55.38:839][626]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.25-14.55.38:840][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.25-14.55.38:878][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.25-14.55.38:896][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.25-14.55.38:950][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.25-14.55.38:995][626]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000143DF4C1440), frame # 5626
+[2023.02.25-14.55.38:995][626]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000014398813E00), frame # 5626
+[2023.02.25-14.55.38:999][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.02.25-14.55.39:210][626]LogSlate: Took 0.045521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.02.25-14.55.39:223][627]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.02.25-14.56.00:667][189]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.25-14.56.00:680][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.25-14.56.00:680][189]PIE: New page: PIE session: VehicleAdvExampleMap (Feb 25, 2023, 2:56:00 AM)
+[2023.02.25-14.56.00:716][189]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2023.02.25-14.56.00:804][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088232s)
+[2023.02.25-14.56.00:805][189]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2023.02.25-14.56.00:805][189]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014393B12600), frame # 7189
+[2023.02.25-14.56.00:805][189]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000143DE3E3880), frame # 7189
+[2023.02.25-14.56.00:806][189]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2023.02.25-14.56.00:806][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.089509s)
+[2023.02.25-14.56.00:814][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.02.25-14.56.00:816][189]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.25-14.56.00:816][189]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.25-14.56.00:816][189]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.25-14.56.00:816][189]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.25-14.56.00:816][189]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.25-14.56.00:816][189]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.25-14.56.00:816][189]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.25-14.56.00:816][189]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.25-14.56.00:817][189]LogAudio: Display: Using built-in audio occlusion.
+[2023.02.25-14.56.00:817][189]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.25-14.56.00:822][189]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.25-14.56.00:822][189]LogAudioMixer: Display: 1: FrontRight
+[2023.02.25-14.56.01:010][189]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2023.02.25-14.56.01:010][189]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.25-14.56.01:010][189]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.25-14.56.01:010][189]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.25-14.56.01:010][189]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.25-14.56.01:020][189]LogInit: FAudioDevice initialized.
+[2023.02.25-14.56.01:029][189]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2023.02.25-14.56.01:048][189]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2023.02.25-08.56.01
+[2023.02.25-14.56.01:049][189]LogWorld: Bringing up level for play took: 0.017756
+[2023.02.25-14.56.01:049][189]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2023.02.25-14.56.01:059][189]Cmd: ENABLEALLSCREENMESSAGES
+[2023.02.25-14.56.01:059][189]LogEngine: Onscreen warngins/messages are now ENABLED
+[2023.02.25-14.56.01:059][189]PIE: Server logged in
+[2023.02.25-14.56.01:060][189]PIE: Play in editor total start time 0.38 seconds.
+[2023.02.25-14.56.02:171][315]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.02:171][315]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.56.02:172][315]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.02:672][375]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.02:672][375]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.56.02:672][375]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.02:814][388]PIE: Warning: None.ModelComponent_100 has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2023.02.25-14.56.03:176][431]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.03:176][431]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.56.03:176][431]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.03:676][491]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.03:676][491]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.56.03:676][491]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.04:175][551]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.04:175][551]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.56.04:175][551]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.04:677][611]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.04:677][611]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.56.04:677][611]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.05:176][665]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.05:176][665]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AI_Functions_C /Game/Blueprints/Enemies/Functions/AI_Functions.Default__AI_Functions_C
+	Function /Game/Blueprints/Enemies/Functions/AI_Functions.AI_Functions_C:UpdateBBKey:010E
+[2023.02.25-14.56.05:176][665]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.05:676][722]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.05:676][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.06:168][781]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.06:168][781]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.06:670][841]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.06:670][841]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.07:169][901]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.07:170][901]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.07:672][959]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.07:673][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.08:170][  1]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.08:170][  1]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.08:674][ 61]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.08:674][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.09:175][121]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.09:175][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.09:674][181]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.09:675][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.10:169][240]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.10:169][240]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.10:676][300]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.10:676][300]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.11:177][360]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.11:177][360]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.11:677][420]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.11:677][420]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.12:169][479]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.12:169][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.12:669][539]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.12:669][539]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.13:169][599]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.13:170][599]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.13:669][659]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.13:670][659]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.14:174][719]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.14:174][719]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.14:674][779]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.14:674][779]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.15:168][838]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.15:169][838]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.15:670][898]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.15:670][898]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.16:177][958]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.16:177][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.16:670][ 17]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.16:670][ 17]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.17:172][ 77]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.17:172][ 77]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.17:674][136]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.17:674][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.18:174][196]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.18:174][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.18:680][256]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.18:680][256]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.19:176][315]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.19:176][315]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.19:671][374]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.19:671][374]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.20:176][411]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.20:176][411]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.20:669][470]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.20:669][470]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.21:175][530]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.21:175][530]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.21:676][590]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.21:676][590]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.22:176][650]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.22:176][650]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.22:676][710]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.22:676][710]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.23:172][769]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.23:172][769]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.23:671][829]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.23:672][829]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.24:172][889]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.24:173][889]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.24:673][949]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.24:673][949]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.25:173][  9]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.25:173][  9]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.25:670][ 68]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.25:670][ 68]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.26:170][120]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.26:170][120]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.26:672][180]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.26:672][180]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.27:172][240]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.27:172][240]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.27:672][300]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.27:672][300]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.27:823][308]PIE: Warning: None.ModelComponent_101 has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2023.02.25-14.56.28:313][328]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.28:313][328]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.28:675][368]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.28:676][368]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.29:176][428]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.29:176][428]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.29:670][487]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.29:670][487]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.30:170][547]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.30:170][547]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.30:672][607]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.30:672][607]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.31:176][667]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.31:176][667]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.31:672][726]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.31:672][726]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.32:171][786]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.32:171][786]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.32:672][846]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.32:673][846]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.33:173][906]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.33:173][906]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.33:673][966]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.33:673][966]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.34:175][ 26]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.34:175][ 26]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.34:670][ 85]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.34:670][ 85]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.35:175][145]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.35:175][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.35:674][205]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.35:674][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.36:175][265]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.36:176][265]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.36:670][324]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.36:670][324]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.37:175][383]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.37:175][383]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.37:676][443]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.37:676][443]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.38:178][502]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.38:178][502]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.38:676][559]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.38:676][559]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.39:176][619]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.39:176][619]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.39:672][678]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.39:672][678]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.39:972][714]PIE: Warning: None.ModelComponent_101 has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2023.02.25-14.56.40:173][738]LogBlueprintUserMessages: [SceneComp_PawnSensing] Didn't sense Player Pawn
+[2023.02.25-14.56.40:174][738]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AI_Functions Function:  Update BBKey Graph:  UpdateBBKey Node:  Set Value as Bool
+[2023.02.25-14.56.40:428][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.25-14.56.40:428][764]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2023.02.25-14.56.40:428][764]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.25-14.56.40:429][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.25-14.56.40:438][764]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.25-14.56.40:440][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.25-14.56.40:450][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.25-14.56.40:465][764]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000143DE3E3880), frame # 11764
+[2023.02.25-14.56.40:465][764]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000014393B12600), frame # 11764
+[2023.02.25-14.56.40:468][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.02.25-14.56.40:541][765]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.02.25-14.56.51:458][947]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.25-14.56.51:479][947]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PC_Tank/BP_PC_BaseTank.BP_PC_BaseTank
+[2023.02.25-14.56.52:866][947]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2023.02.25-14.56.56:130][947]LogSlate: Took 0.040704 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.02.25-14.56.57:493][948]LogSlate: Took 0.009437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.02.25-14.57.02:307][233]LogSlate: Window 'BP_PC_BaseTank' being destroyed
+[2023.02.25-14.57.11:829][170]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2023.02.25-14.57.21:452][686]LogRenderer: Reallocating scene render targets to support 972x564 Format 10 NumSamples 1 (Frame:1).
+[2023.02.25-15.03.24:667][625]LogRenderer: Reallocating scene render targets to support 972x568 Format 10 NumSamples 1 (Frame:1).
+[2023.02.25-15.04.53:032][699]LogSlate: Window 'BP_PC_BaseTank' being destroyed
+[2023.02.25-15.04.53:148][699]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.02.25-15.04.53:148][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.25-15.05.16:802][303]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.02.25-15.05.22:303][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2023.02.25-15.05.24:619][912]LogSlate: Window 'Save Content' being destroyed
+[2023.02.25-15.05.24:909][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PC_Tank/BP_PC_SingleShot" FILE="../../../../../../Documents/Unreal Games/TankGame/TotP_GitHub/Content/Blueprints/PC_Tank/BP_PC_SingleShot.uasset" SILENT=true
+[2023.02.25-15.05.25:247][912]LogSavePackage: Moving '../../../../../../Documents/Unreal Games/TankGame/TotP_GitHub/Saved/BP_PC_SingleShot8854AC944F42866DD706EA8D79C9FFF1.tmp' to '../../../../../../Documents/Unreal Games/TankGame/TotP_GitHub/Content/Blueprints/PC_Tank/BP_PC_SingleShot.uasset'
+[2023.02.25-15.05.25:315][912]AssetCheck: New page: Asset Save: BP_PC_SingleShot
+[2023.02.25-15.05.25:315][912]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PC_Tank/BP_PC_SingleShot.BP_PC_SingleShot
